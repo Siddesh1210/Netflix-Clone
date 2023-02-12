@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.netflix
+{
+   letter-spacing: 3px;
+   color:red !important;
+   font-weight: bolder;
+   font-size:22px;
+}
+
+.hero
+{
+        background-image: url('./Images/hero.jpg');
+        height:90vh;
+        background-size: cover;
+        filter:brightness(80%);
+}
+hr
+{
+        background-color: rgb(255, 255, 255);
+        color:rgb(255, 255, 255);
+        height:10px;
+}
+
+.sign-in
+{
+    background-color: red !important;
+    color:white !important;
+    font-size: 16px;
+}
+
+.hero-para
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inp
+{
+    padding:5px;
+    font-size: 20px;
+    /* width:50%; */
+    border:none
+}
+
+.get-started
+{
+   padding:9px 32px;
+   text-align:center;
+   color:white;
+   background-color: red;
+   border:none;
+}
+
+@media (max-width:576px)
+{
+    .get-started{
+        width:87%;
+    }
+    .inp
+    {
+        margin-bottom:5px;
+        width:87%;
+
+    }
+    
+}
+.h1-tag-all
+{
+ font-weight: bolder;
+ font-size: 40px;
+}
+
+.para-tag-all
+{
+    font-size: 20px;
+}
+
+.accordion-button.collapsed {
+    background: rgb(0, 0, 0);
+    color:white;
+  }
+  
+  .accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: rgb(89, 88, 88) !important;
+    box-shadow: 0px 0px 1px red !important;
+    -webkit-box-shadow: 0px 0px 1px rgb(255, 0, 0) !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: rgb(72, 72, 72) !important;
+    outline: 0;
+    box-shadow: 0px 0px 3px rgb(147, 146, 146) !important;
+    -webkit-box-shadow: 0px 0px 3px rgb(142, 142, 142) !important;
+}
+
+accordion-button:not(.collapsed)::after {
+    background-image: url('./Images/close-button-png-30221.png') !important;
+}
+
+.accordion-button::after {
+    
+    background-image: url('./Images/close-button-png-30221.png') !important;
+}
+
+.accordion-button:hover{
+    background-color: rgb(78, 78, 79);
+    color:white;
+    transition: 0.5s ease-in-out;
+}
+
+
+.navbar-toggler {
+    /* color: var(--bs-navbar-color); */
+    background-color: rgb(255, 0, 0) !important;
+}
